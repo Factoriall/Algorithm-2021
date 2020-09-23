@@ -51,7 +51,7 @@ public class MyStack {
 
 ## 정의 방법
 - import java.util.Stack 통해 라이브러리 import
-- Stack<E> stack = new Stack<>(); 통해 E 타입의 빈 스택 정의
+- Stack\<E> stack = new Stack<>(); 통해 E 타입의 빈 스택 정의
 
 ## 사용 메서드
 - stack.push(E item): stack의 top에 item 삽입
