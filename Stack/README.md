@@ -49,6 +49,13 @@ public class MyStack {
 ~~~
 - 출처: https://gmlwjd9405.github.io/2018/08/03/data-structure-stack.html
 
+## 스택 사용 사례
+- 재귀 알고리즘: 재귀적으로 함수 호출하는 경우에 임시 데이터를 스택에 넣어주고 backtrack할 때 스택에 넣었던 임시 데이터를 빼준다.
+- 실행 취소(undo)
+- 역순 문자열 만들기
+- 수식 괄호 검사
+- 후위 표기법 계산
+
 ## 정의 방법
 - import java.util.Stack 통해 라이브러리 import
 - Stack\<E> stack = new Stack<>(); 통해 E 타입의 빈 스택 정의
@@ -61,3 +68,7 @@ public class MyStack {
 - stack.search(Object o): 해당 Object와 일치하는 맨 위의 item 반환
   * stack의 top은 1, 그 아래로 수가 점점 늘어남
   * 해당 Object와 일치하는 item 없을 시 -1 반환 
+
+## 문제 사이트 및 코드
+- stockprice.java(주식가격): https://programmers.co.kr/learn/courses/30/lessons/42584
+- development.java(기능개발): https://programmers.co.kr/learn/courses/30/lessons/42586
