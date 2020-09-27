@@ -102,6 +102,14 @@ public class MyMap<K, V> {
 - map.size(): map 안에 들어있는 item 개수 반환
 - map.keySet(): map 안의 value를 제외한 모든 key의 set를 반환
 - map.values(): map 안의 key를 제외한 모든 value의 set를 반환
+- 내부의 모든 엔트리 가져오는 방법
+~~~java
+for ( Map.Entry<String, Tab> entry : hash.entrySet()) {
+    String key = entry.getKey();
+    Tab tab = entry.getValue();
+    // do something with key and/or tab
+}
+~~~
 
 ## 문제 사이트 및 코드
 - notArrivedPlayer.java(완주하지 못한 선수): https://programmers.co.kr/learn/courses/30/lessons/42576
