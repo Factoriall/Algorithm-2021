@@ -238,10 +238,12 @@ class GFG{
 - 출처: https://www.geeksforgeeks.org/dual-pivot-quicksort/
 
 ## 사용 사례
-- 오름차순, 내림차순 정렬이 필요할 때 사용
+- 오름차순, 내림차순 또는 그 외의 규칙을 가진 정렬이 필요할 때 사용
 - input dataset의 크기가 작거나, 이미 정렬된 것에서 추가가 될 경우 insertion sort가 가장 효율적
 - sorting하는 숫자의 범위가 작을 시 Radix 또는 Counting Sort 사용
-- 그 외의 대부분의 sort는 QuickSort 또는 Merge Sort. Merge Sort는 공간복잡도 부담이 될 수 있어 Quicksort가 대부분 우위를 보인다. 
+- 그 외의 대부분의 sort는 QuickSort 또는 Merge Sort. 
+  - Merge Sort는 공간복잡도 부담이 될 수 있어 대부분 Quicksort가 우위를 보인다. 
+  - 다만 Quicksort의 경우 최악의 경우 O(n^2)의 시간 복잡도를 보이기 때문에 무조건인 보장을 원한다면 Merge Sort 사용
 
 ## 정의 방법
 - import java.util.Arrays 및 import java.util.Collections로 소팅 라이브러리 import
