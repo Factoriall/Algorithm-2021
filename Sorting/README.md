@@ -59,7 +59,7 @@
   ~~~
   * Merge Sort: Divide & Conquer 방식, 배열을 반으로 Divide하다가 이를 합치면서 sort 하는 방식
   ~~~java
-  public static void mergeSort(int[] array, int left, int right) {/-
+  public static void mergeSort(int[] array, int left, int right) {
     if (right <= left) return;
     int mid = (left+right)/2;
     //Divide 과정
@@ -232,6 +232,9 @@ class GFG{
     } 
 } 
 ~~~
+- 정렬 방법의 시간 복잡도
+![sorting_complexity.png](https://blog.kakaocdn.net/dn/wzHnE/btqzxCLyeuw/lBUZ7JI7cIasI7GLkpl9Yk/img.png)
+
 - 출처: https://www.geeksforgeeks.org/dual-pivot-quicksort/
 
 ## 사용 사례
