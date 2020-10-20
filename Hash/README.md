@@ -1,3 +1,27 @@
+# HashSet
+## 특징
+- Key값을 저장하는 구조
+- 중복 저장 불가능
+- 같은 Key값으로 저장될 시 덮어씌워짐
+
+## 라이브러리 제외 코드
+
+## 정의 방법
+1. import java.util.HashSet;
+2. HashSet<E> map = new HashSet<>(); 통해 비어있는 HashSet 생성
+    - () 안에 Integer, float 타입의 숫자를 넣어 초기 용량 및 load factor 지정
+    
+## 사용 메서드
+- set.add(E e): set에 element 추가, 추가 성공시 true 반환
+- set.clear(): set 내의 모든 element 삭제
+- set.clone(): HashSet 객체의 카피본 return
+- set.contains(Object o): set 안에 Object o가 있는지 확인해서 있음 true, 없음 false 반환
+- set.isEmpty(): set가 비어있는지 확인, 비어있음 true 반환
+- set.iterator(): Iterator<E> 타입의 set의 반복자 반환
+- set.remove(Object o): set 내의 Object o가 있다면 삭제, 있음 true 없음 false 반환
+- set.size() : set 내의 element 수 반환
+
+
 # HashMap
 
 ## 특징
