@@ -16,6 +16,7 @@ int solution(int n, vector<vector<int>> edge) {
     queue<int> q;
     q.push(1);
     isVisited[1] = true;
+    //간단한 BFS 사용해서 제일 깊은 깊이의 qSize return
     while (!q.empty()) {
         int qSize = q.size();
         bool isFinished = true;
