@@ -14,3 +14,6 @@
 
 ## 다시 풀어아하는 문제
 - 백준 3943번: https://www.acmicpc.net/problem/3954
+
+- 백준 16120번: https://www.acmicpc.net/problem/16120 - 디버깅에서 뻘짓을 너무 많이 했다...
+  + PPAPPPAPPPAPPPAPPPAPAPAPAPAP - 반례
